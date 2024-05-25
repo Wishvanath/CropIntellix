@@ -1,0 +1,41 @@
+.crop-data-wrapper {
+  .row {
+    .left-section {
+      padding: 0px;
+      height: 100vh;
+      overflow: hidden;
+      #video {
+        min-width: 100%;
+        min-height: 100%;
+        z-index: 1;
+        max-width: -webkit-fill-available;
+      }
+    }
+    .right-section {
+      text-align: left;
+      background-color: black;
+      .title-section {
+        padding: 40px;
+        .title {
+          color: #545454;
+          font-weight: 700;
+          font-size: 40px;
+          text-align: right;
+          margin-right: 10%;
+        }
+        .mini-title{
+            margin-right: 10%;
+            text-align: right;
+            font-style: italic;
+        }
+      }
+      .title-text{
+        padding: 40px;
+        p{
+            color: white;
+            font-size: 16px;
+        }
+      }
+    }
+  }
+}

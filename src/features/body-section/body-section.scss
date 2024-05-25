@@ -1,0 +1,120 @@
+.body-section-wrapper {
+  .row {
+    .body-section-1 {
+      height: 100vh;
+      background-image: url('/images/CropIntellix.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 0px;
+      position: relative;
+      &:hover {
+        cursor: pointer;
+      }
+      .title {
+        position: absolute;
+        bottom: 22%;
+        font-size: 40px;
+        color: white;
+        transform: rotate(270deg);
+        right: -32%;
+        font-weight: 500;
+        /* Safari */
+        -webkit-transform: rotate(-90deg);
+        /* Firefox */
+        -moz-transform: rotate(-90deg);
+        /* IE */
+        -ms-transform: rotate(-90deg);
+        /* Opera */
+        -o-transform: rotate(-90deg);
+      }
+    }
+    .body-section-2 {
+      height: 100vh;
+      background-image: url('/images/SurveyIntellix.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 0px;
+      position: relative;
+      &:hover {
+        cursor: pointer;
+      }
+      .title {
+        position: absolute;
+        bottom: 25%;
+        font-size: 40px;
+        color: white;
+        transform: rotate(270deg);
+        right: -39%;
+        font-weight: 500;
+         /* Safari */
+         -webkit-transform: rotate(-90deg);
+         /* Firefox */
+         -moz-transform: rotate(-90deg);
+         /* IE */
+         -ms-transform: rotate(-90deg);
+         /* Opera */
+         -o-transform: rotate(-90deg);
+      }
+    }
+    .body-section-3 {
+      height: 100vh;
+      background-image: url('/images/InsureIntellix.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 0px;
+      position: relative;
+      &:hover {
+        cursor: pointer;
+      }
+      .title {
+        position: absolute;
+        bottom: 25%;
+        font-size: 40px;
+        color: white;
+        transform: rotate(270deg);
+        right: -38%;
+        font-weight: 500;
+         /* Safari */
+         -webkit-transform: rotate(-90deg);
+         /* Firefox */
+         -moz-transform: rotate(-90deg);
+         /* IE */
+         -ms-transform: rotate(-90deg);
+         /* Opera */
+         -o-transform: rotate(-90deg);
+      }
+    }
+    .body-section-4 {
+      height: 100vh;
+      background-image: url('/images/CarbonIntellix.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 0px;
+      position: relative;
+      &:hover {
+        cursor: pointer;
+      }
+      .title {
+        position: absolute;
+        bottom: 27%;
+        font-size: 40px;
+        color: white;
+        transform: rotate(270deg);
+        right: -40%;
+        font-weight: 500;
+         /* Safari */
+         -webkit-transform: rotate(-90deg);
+         /* Firefox */
+         -moz-transform: rotate(-90deg);
+         /* IE */
+         -ms-transform: rotate(-90deg);
+         /* Opera */
+         -o-transform: rotate(-90deg);
+      }
+    }
+  }
+}

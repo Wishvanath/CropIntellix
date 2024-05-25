@@ -2,11 +2,16 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import BodySection from './features/body-section/body-section';
+import VisionAndMissionSection from './features/vision-and-mission-section/vision-and-mission-section';
+import AboutUs from './features/about-us/about-us';
+import CropData from './features/crop-data-section/crop-data-section';
+import FieldData from './features/field-data-section/field-data-section';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
         <p>
@@ -50,7 +55,23 @@ function App() {
             React Redux
           </a>
         </span>
-      </header>
+      </header> */}
+
+      {/* Body secction */}
+      <BodySection />
+
+      {/* Vision and Mission section */}
+      <VisionAndMissionSection />
+
+      {/* About Us section */}
+      <AboutUs />
+
+      {/* Crop data section */}
+      <CropData />
+
+      {/* Field data section */}
+      <FieldData />
+
     </div>
   );
 }
