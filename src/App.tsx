@@ -7,6 +7,8 @@ import VisionAndMissionSection from './features/vision-and-mission-section/visio
 import AboutUs from './features/about-us/about-us';
 import CropData from './features/crop-data-section/crop-data-section';
 import FieldData from './features/field-data-section/field-data-section';
+import PayoutSection from './features/payout-section/payout-section';
+import RetentionSection from './features/retention-section/retention-section';
 
 function App() {
   return (
@@ -71,6 +73,12 @@ function App() {
 
       {/* Field data section */}
       <FieldData />
+
+      {/* Payout section */}
+      <PayoutSection />
+
+      {/* Retention section */}
+      <RetentionSection />
 
     </div>
   );

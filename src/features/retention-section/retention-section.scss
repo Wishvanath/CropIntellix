@@ -1,0 +1,54 @@
+.retention-wrapper {
+    .row {
+      .left-section {
+        background-color: black;
+        background-image: url('/images/CarbonIntellixMobileApp.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        position: relative;
+      }
+      .right-section {
+        text-align: left;
+        background-color: black;
+        .title-section {
+          padding: 40px;
+          .title {
+            color: #545454;
+            font-weight: 700;
+            font-size: 40px;
+            text-align: right;
+            margin-right: 10%;
+          }
+          .mini-title {
+            margin-right: 10%;
+            text-align: right;
+            font-style: italic;
+            color: #545454;
+          }
+        }
+        .title-text {
+          padding: 30px;
+          p {
+            color: white;
+            font-size: 16px;
+          }
+        }
+        .key-features-section{
+          padding: 30px;
+          .key-advantage,
+          .key-features{
+              color: white;
+              line-height: 35px;
+              .title{
+                  font-size: 30px;
+                  font-weight: 500px;
+                  color: white;
+              }
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,29 +1,26 @@
-import './field-data-section.scss';
-const FieldData = () => {
+import './retention-section.scss';
+
+const RetentionSection = () => {
   return (
     <>
-      <div className="container-fluid field-data-wrapper">
+      <div className="container-fluid retention-wrapper">
         <div className="row">
           <div className="col-4 left-section"></div>
           <div className="col-8 right-section">
             <div className="title-section">
               <div className="title">
-                Get the most out of the field data..!!
+              Emission to Retention..!!
               </div>
               <div className="mini-title">
-                Accurate & Precise Crop Data Collection Tools
+              Most accurate and preicede application to capture AWD process..!!
               </div>
             </div>
             <div className="title-text">
               <p>
-                An end-to-end platform for field data collection using mobile
-                applications and field survey & surveyor monitoring live from a
-                centralized web dashboard.
+              An End-to-End digital platform tailored for crop insurance companies with a solution from field data collections & monitoring to crop loss assessment & crop loss percentage at plot level.
               </p>
               <p>
-                We bring all the needs of the crop/field survey activities under
-                one platform for continuous monitoring and for better decision
-                making & cost optimization.
+              We integrate crop models, satellite imagery and weather forecast data alongside the Crop Indices like NDVI, EVI, SAVI, CI etc from the optical sensors and RVI, DRVI, RVI4S1 and more from the microwave sensors to derive the accurate crop loss % and create crop-specific analysis.
               </p>
             </div>
             <div className="row key-features-section">
@@ -50,4 +47,4 @@ const FieldData = () => {
     </>
   );
 };
-export default FieldData;
+export default RetentionSection;
