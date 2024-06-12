@@ -1,0 +1,23 @@
+.footer-section-wrapper{
+    background: black;
+    .footer-heading{
+        padding: 60px;
+        font-size: 40px;
+        width: 70%;
+        text-align: left;
+        color: white;
+        span{
+           color: #25d15d;
+        }
+    }
+    .footer-body{
+        background-color: black;
+        background-image: url('/images/Footer-dummy_image.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 0px;
+        position: relative;
+        height: 100vh;
+    }
+}

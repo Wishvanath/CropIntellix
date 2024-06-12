@@ -1,7 +1,3 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
 import BodySection from './features/body-section/body-section';
 import VisionAndMissionSection from './features/vision-and-mission-section/vision-and-mission-section';
 import AboutUs from './features/about-us/about-us';
@@ -9,6 +5,7 @@ import CropData from './features/crop-data-section/crop-data-section';
 import FieldData from './features/field-data-section/field-data-section';
 import PayoutSection from './features/payout-section/payout-section';
 import RetentionSection from './features/retention-section/retention-section';
+import FooterSection from './features/footer-section/footer-section';
 
 function App() {
   return (
@@ -79,6 +76,9 @@ function App() {
 
       {/* Retention section */}
       <RetentionSection />
+
+      {/* footer section */}
+      <FooterSection />
 
     </div>
   );
