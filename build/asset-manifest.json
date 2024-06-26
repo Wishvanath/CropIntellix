@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8fcfe8ff.css",
+    "main.js": "/static/js/main.3fae98f0.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/CarbonIntellix.png": "/static/media/CarbonIntellix.c3e87325a2e85085361f.png",
+    "static/media/SurveyIntellix.png": "/static/media/SurveyIntellix.49ff0440bdb3f319358e.png",
+    "static/media/Vision-left-aside.png": "/static/media/Vision-left-aside.3c3b787955f95cd54636.png",
+    "static/media/CropIntellix.png": "/static/media/CropIntellix.99f5e3efc3c31c3f8d5a.png",
+    "static/media/InsureIntellix.png": "/static/media/InsureIntellix.99c158f44f6babbbeccb.png",
+    "static/media/PayoutWebApp.png": "/static/media/PayoutWebApp.f36b66c725f8d59a2ad1.png",
+    "static/media/CarbonIntellixMobileApp.png": "/static/media/CarbonIntellixMobileApp.8b9284a8391535937e8f.png",
+    "static/media/CropIntellixMobileApp.png": "/static/media/CropIntellixMobileApp.d387d41dbee7e25e7248.png",
+    "static/media/Footer-dummy_image.png": "/static/media/Footer-dummy_image.571bcc142cbcb5e99679.png",
+    "index.html": "/index.html",
+    "main.8fcfe8ff.css.map": "/static/css/main.8fcfe8ff.css.map",
+    "main.3fae98f0.js.map": "/static/js/main.3fae98f0.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fcfe8ff.css",
+    "static/js/main.3fae98f0.js"
+  ]
+}
